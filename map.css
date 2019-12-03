@@ -1,0 +1,224 @@
+/* INDEX.CSS DOCUMENT */
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+body {
+  font-family: Roboto;
+  margin: 0em;
+  background-color: #eee;
+}
+
+#sidebar {
+  left: 0em;
+  color: #aaa;
+  padding-top: 0em;
+  margin-top: 10%;
+  margin-left: 0em;
+  float: left;
+  position: absolute;
+  width: 19em;
+  position: fixed;
+  background-color: #214972;
+  box-shadow: 7px 0px 20px 0px rgba(50, 50, 50, 0.75);
+  transition-duration: 0.3s;
+  float: left;
+  position: absolute;
+  height: 20%;
+  z-index: 9998;
+}
+
+.element:hover {
+  color: #aa7777;
+  transition-duration: 0.3s;
+}
+
+h2 {
+  transition-duration: 0.3s;
+  font-size: 200%;
+  font-weight: bolder;
+}
+
+#header {
+  background-color: #214972;
+  position: fixed;
+  height: 4em;
+  width: 100%;
+  transition-duration: 0.3s;
+  top: -5em;
+  box-shadow: 0px 10px 20px 0px rgba(50, 50, 50, 0.55);
+  z-index: 9997;
+}
+
+#content {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  max-width: 860px;
+  padding-left: 19em;
+  padding-right: 2em;
+
+ /* overflow: scroll;*/
+  transition-duration: 0.3s;
+}
+
+
+
+iframe{
+    width: 100%;
+    height: 100%;
+}
+
+
+p {
+  font-size: 1.25em;
+}
+
+.link {
+  text-decoration: none;
+}
+
+#toggle {
+  display: none;
+}
+
+#toggle + label {
+  background: url('http://dicrc.in/images/menu_icon.png') no-repeat;
+  width: 40px;
+  height: 40px;
+  position: relative;
+  right: 0.25em;
+  top: 0.5em;
+  padding: 0.25em;
+  float: right;
+  z-index: 99999;
+}
+
+#toggle:checked + label {
+  background: url('https://www.bathchristmasmarket.co.uk/wp-content/themes/bathxmas/images/ui/buttons/icon-close.png') no-repeat;
+  position: relative;
+  width: 40px;
+  height: 40px;
+  right: 0.25em;
+  top: 0.5em;
+  padding: 0.25em;
+  float: right;
+  z-index: 99999;
+}
+
+@media(max-width:600px) {
+  #content {
+    padding-left: 2em;
+    margin-top: 5em;
+    transition-duration: 0.3s;
+  }
+  #header {
+    top: 0em;
+    transition-duration: 0.3s;
+  }
+    
+    #content {
+  
+  width: 100%;
+  height: 100%;
+  padding-left: 0;
+ 
+}
+
+
+
+iframe{
+    width: 100%;
+    height: 100%;
+}
+
+
+}
+
+.nav-elements {
+  list-style-type: none;
+}
+
+.element {
+  margin: 0em;
+  font-size: 150%;
+  line-height: 2em;
+  width: 100%;
+  color: #eee;
+  transition-duration: 0.3s;
+}
+
+.name,
+.element {
+  color: #eee;
+}
+
+.btxt {
+  color: #111;
+}
+
+.toggle {
+  position: relative;
+}
+
+
+/* for demo's purposes */
+.box{
+  max-width:250px;
+  width:80%;
+  height:30px;
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform: translateY(-50%) translateX(-50%);
+}
+
+
+/* search bar CSS starts here */
+:root{ /* css variable for easy color changes */
+ --clr-main:#ffb0bb;  /* border color and button's background */
+  --clr-input:#ece6e6; /* text inside the input  */
+ }
+
+/* search bar wrapper */
+.search form{
+display:flex;
+}
+
+/* input is the box where the text is typed */
+.search input{
+width:80%; /* width relative to it's parent div (the div it's inside of )*/
+border:1px solid var(--clr-main); /* input border */
+outline:none;
+padding:.8em .4em; /* padding */
+color:var(--clr-dark-input); /* text color */
+font-family:'Roboto Condensed';
+}
+/* this is the message when text is not being typed */
+.search input::placeholder{
+font-family:'Roboto Condensed'; /* font */
+}
+/* button wrapper */
+.search button{
+	width:20%;
+border:none;
+outline:none;
+background:var(--clr-main);/* background color */
+cursor:pointer; /* change this for your custom cursor */
+ display:flex;
+ justify-content:center;
+ align-items:center;
+}
+
+/* button svg icon */
+button svg{
+  box-sizing:content-box; 
+  --size:20px; /* change the icon size, it may be square*/
+width:var(--size);
+height:var(--size);
+fill:white; /* color of the icon */
+}
+/* search bar CSS ends here ---*/
+
+
+
+
+
+

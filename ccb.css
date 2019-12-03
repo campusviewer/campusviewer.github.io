@@ -1,0 +1,195 @@
+/*body{
+    background:url("../architecture-books-building-indoors-207742.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    text-align: center;
+    
+    
+}*/
+
+:root {
+     --main-bg-color: #214972;
+    --main-font-color: #fff;
+    --main-font-family: "PT Sans", sans-serif;
+    --heading-font-family:  cursive;
+}
+
+body {
+   
+    text-align: center;
+    background: var(--main-bg-color);
+    color: var(--main-font-color);
+    font-family: var(--main-font-family);
+}
+
+
+
+
+/*
+h1 {
+    font-family: var(--heading-font-family);
+    color: black;
+    padding: 0.5rem 1rem;
+    background: #fff;
+    margin-top: 0;
+}*/
+
+.about {
+    font-size: 5em;
+    color: black;
+}
+
+h2 {
+    font-family: var(--main-font-family);
+    margin: 90px 90px;
+}
+
+h1 {
+    font-family: var(--main-font-family);
+    font-size: 3rem;
+        color:gold;
+}
+
+.bg-dark {
+    /* background-color: #ff7f50!important;*/
+}
+.navbar {
+    justify-content: flex-start;
+    text-decoration: none;
+}
+.menu-item {
+    position: relative;
+    padding: 10px 10px;
+    border-right: 1px solid #eeeeee;
+    color: #212121;
+    background: #fff;
+    transition: background.3s linear;
+}
+
+.menu-item:hover {
+    background: #ff6b81;
+}
+button {
+    color: #ffffff;
+    padding: 10px 10px;
+    margin: 200px;
+    border-radius: 10px 10px;
+    background-color: #2f3542;
+    font-size: 2em;
+}
+button:hover {
+    color: #ff6348;
+}
+
+.images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+
+.col-sm-4{
+  
+
+}
+
+.col-sm-8{
+   
+    margin-bottom: 10px;
+   
+}
+
+    .navbar{
+        margin-bottom:  20px;
+    }
+
+
+.col{
+      margin-top: 10px;
+}
+
+.row {
+    height: 90vh;
+     width: 100%;
+    margin-top: 10px;
+    overflow: hidden;
+}
+
+/*img {
+    width: 100%;
+    height: auto;
+    margin: 10px;
+    transition: all 1s;
+}*/
+/*img:hover {
+    transform: scale(1.1);
+}*/
+
+/*.parent {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 10%;
+}*/
+
+/*.child {
+    height: 80%;
+}*/
+
+/*.child1 {
+    width: 35%;
+    overflow: auto;
+}*/
+
+/*.child2 {
+    width: 65%;
+    overflow: auto;
+}*/
+
+@media (max-width: 600px) {
+    
+    .col-sm-4{
+    overflow:scroll;
+    margin-top: 70%;
+    margin-left: 0%;
+}
+    
+    
+
+    .navbar button{
+ margin: 0 0 0 20%;
+}
+
+    
+    /*.container-fluid {
+        display: flex;
+        flex-direction: row;
+        margin-top: 0;
+        margin-left: 0;
+        width: 80%;
+    }*/
+/*
+
+    .child1 {
+        width: 100%;
+        height: auto;
+        overflow: auto;
+        font-size: 1.5rem;
+    }
+
+    .child2 {
+        width: 100%;
+        overflow: auto;
+        height: auto;
+    }
+}
+*/
+
+/*@media (min-width :600px){
+    img{width:100%;
+    height:auto;}
+}*/
